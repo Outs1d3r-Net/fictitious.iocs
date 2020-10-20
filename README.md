@@ -124,7 +124,10 @@ $ bin/logstash -f config/pipeline.conf --config.reload.automatic
 #### Acesse http://localhost:5601  
 > Discover >> Create index pattern >> Index pattern name = logstash-2020.xx.xx-000001 >> Next step >> Time field = @timestamp >> Create index pattern. Return Discover.  
 
-## AppVuln_fictitious.iocs.tar.gz  
+
+## Aplicatiovs vulneraveis
+
+#### AppVuln_fictitious.iocs.tar.gz  
 > Este arquivo contem as aplicações utilizadas para gerar o ```access.log```, neste tarball você poderá utilizar para treinar suas tecnicas de pentest tanto para blueteam quanto redteam.  
  
 ```
@@ -133,5 +136,8 @@ $ tar xvf AppVuln_fictitious.iocs.tar
 $ cd fictitious.iocs/bkp
 $ ls -la
 ```  
+
+#### therats/LV1/theratsLV1.tar.gz  e therats/LV2/theratsLV2.tar.gz  
+> Estes são arquivos que possuem um wordpress de um exercicio antigo que eu criei para ensinar algumas amigos algumas tecnicas de hacking, aqui você contrará exercicios de esteganografia, criptografia e muito mais !  
 
 :brazil:
